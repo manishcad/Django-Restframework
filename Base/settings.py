@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-pg#7338^7ig5%rsy41176qa0k=hxb=5)t+)y7w39^__pqh42-8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['gympie-swift-parrot-kaak.2.us-1.fl0.io']
 
 
 # Application definition
