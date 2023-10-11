@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-pg#7338^7ig5%rsy41176qa0k=hxb=5)t+)y7w39^__pqh42-8
 DEBUG = True
 
 ALLOWED_HOSTS = ['gympie-swift-parrot-kaak.2.us-1.fl0.io']
-
+CSRF_TRUSTED_ORIGINS =['https://*.gympie-swift-parrot-kaak.2.us-1.fl0.io/','https://*.127.0.0.1']
 
 # Application definition
 
