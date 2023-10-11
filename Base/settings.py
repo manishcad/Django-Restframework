@@ -82,8 +82,12 @@ DATABASES = {
         'NAME': 'database',          # Replace with your database name
         'USER': 'fl0user',          # Replace with your database user
         'PASSWORD': 'QWl2faXhj4GM',  # Replace with your database password
-        'HOST': 'ep-quiet-disk-86069194.ap-southeast-1.aws.neon.fl0.io',                   # Replace with your database host (usually 'localhost')
+        'HOST': 'ep-quiet-disk-86069194.ap-southeast-1.aws.neon.fl0.io',  # Replace with your database host (usually 'localhost')
         'PORT': '5432',                            # Leave it empty for the default PostgreSQL port (5432)
+        'OPTIONS': {
+            'sslmode': 'require',
+            #'options': 'endpoint=ep-replace-this-12345679',
+        }
     }
 }
 
