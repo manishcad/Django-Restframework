@@ -86,7 +86,7 @@ DATABASES = {
         'PORT': '5432',                            # Leave it empty for the default PostgreSQL port (5432)
         'OPTIONS': {
             'sslmode': 'require',
-            #'options': 'endpoint=ep-replace-this-12345679',
+            'options': 'endpoint=gympie-swift-parrot-kaak.2.us-1.fl0.io',
         }
     }
 }
